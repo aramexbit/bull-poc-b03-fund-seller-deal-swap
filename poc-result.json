@@ -1,0 +1,13 @@
+{
+  "poc": "Bull SDK fund() — seller side: server-returned steps for attacker deal executed without verification",
+  "sdk": "bull-sdk.mjs (verbatim copy of https://www.bull.family/sdk/bull.mjs)",
+  "escrow": "BullEscrow.sol (verbatim source, verified on Sourcify chain 4663)",
+  "dealId": "1",
+  "agreedSellAmount": "100",
+  "onChainSellAmount": "1000000",
+  "victimBalanceBefore": "1000000",
+  "victimBalanceAfter": "0",
+  "attackerBalanceAfter": "1000000",
+  "victimPaidEth": "0.001",
+  "exploited": true
+}
